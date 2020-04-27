@@ -1,0 +1,8 @@
+World Skills
+============
+
+.. toctree::
+   ::maxdepth: 1
+   
+   Setup
+   Programming
