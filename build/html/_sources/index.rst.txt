@@ -5,34 +5,34 @@ Studica Robotics
    :maxdepth: 1
    :caption: World Skills
    
-   docs/WorldSkills/Setup/index
-   docs/WorldSkills/Programming/index
-   docs/WorldSkills/Troubleshooting/index
+   docs/WorldSkills/setup
+   docs/WorldSkills/programming
+   docs/WorldSkills/troubleshooting
 
 .. toctree::
    :maxdepth: 1
    :caption: FRC Training
    
-   docs/FRCTraining/Setup/index
-   docs/FRCTraining/Programming/index
-   docs/FRCTraining/Troubleshooting/index
+   docs/FRCTraining/setup
+   docs/FRCTraining/programming
+   docs/FRCTraining/troubleshooting
    
 .. toctree::
    :maxdepth: 1
    :caption: VMX
    
-   docs/VMX/Setup/index
-   docs/VMX/Vision/index
-   docs/VMX/Update/index
-   docs/VMX/Troubleshooting/index
+   docs/VMX/setup
+   docs/VMX/vision
+   docs/VMX/update
+   docs/VMX/troubleshooting
    
 .. toctree::
    :maxdepth: 1
    :caption: Titan
    
-   docs/Titan/Update/index
-   docs/Titan/Calibration/index
-   docs/Titan/Troubleshooting/index
+   docs/Titan/calibration
+   docs/Titan/update
+   docs/Titan/troubleshooting
    
 Indices and tables
 ==================
