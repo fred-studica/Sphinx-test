@@ -1,7 +1,0 @@
-Programming
-===========
-
-.. toctree::
-   :maxdepth: 1
-
-   programming

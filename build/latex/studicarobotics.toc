@@ -1,15 +1,15 @@
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Setting Up}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {2}World Skills Programming}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}Troubleshooting}{5}{chapter.3}%
-\contentsline {chapter}{\numberline {4}Setting Up}{7}{chapter.4}%
-\contentsline {chapter}{\numberline {5}FRC Programming}{9}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Troubleshooting}{11}{chapter.6}%
-\contentsline {chapter}{\numberline {7}Setting Up}{13}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Setting Up VMX Vision}{15}{chapter.8}%
-\contentsline {chapter}{\numberline {9}VMX Update}{17}{chapter.9}%
-\contentsline {chapter}{\numberline {10}Troubleshooting}{19}{chapter.10}%
-\contentsline {chapter}{\numberline {11}Titan Calibration}{21}{chapter.11}%
-\contentsline {chapter}{\numberline {12}How to use Update App}{23}{chapter.12}%
-\contentsline {chapter}{\numberline {13}Troubleshooting}{25}{chapter.13}%
-\contentsline {chapter}{\numberline {14}Indices and tables}{27}{chapter.14}%
+\contentsline {chapter}{\numberline {1}World Skills Software Setup Guide}{1}{chapter.1}%
+\contentsline {chapter}{\numberline {2}World Skills Programming}{7}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Troubleshooting}{9}{chapter.3}%
+\contentsline {chapter}{\numberline {4}Setting Up}{11}{chapter.4}%
+\contentsline {chapter}{\numberline {5}FRC Programming}{13}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Troubleshooting}{15}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Setting Up}{17}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Setting Up VMX Vision}{19}{chapter.8}%
+\contentsline {chapter}{\numberline {9}VMX Update}{21}{chapter.9}%
+\contentsline {chapter}{\numberline {10}Troubleshooting}{23}{chapter.10}%
+\contentsline {chapter}{\numberline {11}Titan Calibration}{25}{chapter.11}%
+\contentsline {chapter}{\numberline {12}How to use Update App}{27}{chapter.12}%
+\contentsline {chapter}{\numberline {13}Troubleshooting}{29}{chapter.13}%
+\contentsline {chapter}{\numberline {14}Indices and tables}{31}{chapter.14}%
