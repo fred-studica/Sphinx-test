@@ -58,7 +58,6 @@
 \fvset{fontsize=\small}
 \usepackage{geometry}
 
-
 % Include hyperref last.
 \usepackage{hyperref}
 % Fix anchor placement for figures with captions.
@@ -73,7 +72,7 @@
 
 
 \title{Studica Robotics}
-\date{Apr 28, 2020}
+\date{Apr 29, 2020}
 \release{0.0.1}
 \author{Fred}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -96,84 +95,26 @@
 This setup is for Java/C++ only
 \end{sphinxadmonition}
 
+
+\section{Online Installer}
+\label{\detokenize{docs/WorldSkills/setup:online-installer}}
+\begin{sphinxadmonition}{caution}{Caution:}
+The online installation will download approximately 1.3GB worth of data, please maintain a stable conneciton while downloading
+\end{sphinxadmonition}
+
 Windows
 
-\sphinxstylestrong{Online Installer}
+macOS
 
-\begin{sphinxadmonition}{warning}{Warning:}
-Windows 7: You \sphinxstylestrong{must} install the standalone version of .NET Version 4.62+ which can be found \sphinxhref{https://support.microsoft.com/en-us/help/3151800/the-net-framework-4-6-2-offline-installer-for-windows}{here}.
-\end{sphinxadmonition}
-
-Download the installer (32bit or 64bit) \sphinxhref{https://github.com/wpilibsuite/allwpilib/releases}{from WPI}.
-
-\noindent\sphinxincludegraphics{{worldskills-software-setup-1}.PNG}
-
-Installing for \sphinxstyleemphasis{All Users} will require admin privileges and install for all users on the machine.
-
-\begin{sphinxadmonition}{note}{Note:}
-Software will be installed to \sphinxcode{\sphinxupquote{C:\textbackslash{}Users\textbackslash{}Public\textbackslash{}wpilib\textbackslash{}YYYY}}. YYYY Corresponds to the currently suppored year.
-\end{sphinxadmonition}
-
-\sphinxstylestrong{Download VS Code}
-\begin{quote}
-
-Due to licensing reasons with VS Code the installer does not contain it bundled in. To overcome this hit the \sphinxstyleemphasis{Select/Download VS Code} button.
-
-\noindent\sphinxincludegraphics{{worldskills-software-setup-2}.PNG}
-
-This will open up the selector tool.
-
-\noindent\sphinxincludegraphics{{worldskills-software-setup-3}.PNG}
-
-Select the \sphinxstyleemphasis{Download} option and VS Code will be downloaded.
-
-\noindent\sphinxincludegraphics{{worldskills-software-setup-4}.PNG}
-
-Once VS Code is downloaded the window will auto change back to the installer window and \sphinxstyleemphasis{Execute Install} can be run.
-
-\noindent\sphinxincludegraphics{{worldskills-software-setup-5}.PNG}
-\end{quote}
-
-\sphinxstylestrong{What was just Installed}
-\begin{quote}
-\begin{itemize}
-\item {} 
-\sphinxstyleemphasis{Visual Stuido Code} \sphinxhyphen{} The prefered and suppored IDE for robot code development.
-
-\item {} 
-\sphinxstyleemphasis{C++ Compiler} \sphinxhyphen{} Toolchains required for building C++ code.
-
-\item {} 
-\sphinxstyleemphasis{Java JDK/JRE} \sphinxhyphen{} Specific version of the JDK/JRE that is used to build code.
-
-\item {} 
-\sphinxstyleemphasis{Gradle} \sphinxhyphen{} Specific version of Gradle used for building and deploying Java or C++ code to the VMXpi
-
-\item {} 
-\sphinxstyleemphasis{WPILib Tools} \sphinxhyphen{} Tools used for robot enhancement
-
-\item {} 
-\sphinxstyleemphasis{WPILib Dependencies} \sphinxhyphen{} OpenCV, etc.
-
-\item {} 
-\sphinxstyleemphasis{VS Code Extensions} \sphinxhyphen{} WPILib extensions for robot code development
-
-\end{itemize}
-
-\begin{sphinxadmonition}{important}{Important:}
-The installer creates a seperate version of VS Code for robotics development, even if VS Code is already installed locally. This is done to prevent workflows from breaking.
-\end{sphinxadmonition}
-\end{quote}
-
-\sphinxstylestrong{Offline Installer}
+Linux
 
 \begin{sphinxadmonition}{warning}{Warning:}
 Windows 7: You \sphinxstylestrong{must} install the standalone version of .NET Version 4.62+ which can be found \sphinxhref{https://support.microsoft.com/en-us/help/3151800/the-net-framework-4-6-2-offline-installer-for-windows}{here}. Before preceding!
 \end{sphinxadmonition}
 
-The offline installation files will be located in the USB provided inside the collection. Locate and run the file named \sphinxcode{\sphinxupquote{WPILibInstaller\_Windows64\sphinxhyphen{}2020.3.2.exe}} or \sphinxcode{\sphinxupquote{WPILibInstaller\_Windows32\sphinxhyphen{}2020.3.2.exe}} based on your OS.
+Download the installer (32bit or 64bit) \sphinxhref{https://github.com/wpilibsuite/allwpilib/releases}{from WPI}.
 
-\noindent\sphinxincludegraphics{{worldskills-software-setup-1}.PNG}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-1}.PNG}\hspace*{\fill}}
 
 Installing for \sphinxstyleemphasis{All Users} will require admin privileges and install for all users on the machine.
 
@@ -186,55 +127,125 @@ Software will be installed to \sphinxcode{\sphinxupquote{C:\textbackslash{}Users
 
 Due to licensing reasons with VS Code the installer does not contain it bundled in. To overcome this hit the \sphinxstyleemphasis{Select/Download VS Code} button.
 
-\noindent\sphinxincludegraphics{{worldskills-software-setup-2}.PNG}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-2}.PNG}\hspace*{\fill}}
 
 This will open up the selector tool.
 
-\noindent\sphinxincludegraphics{{worldskills-software-setup-3}.PNG}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-3}.PNG}\hspace*{\fill}}
 
-Select the \sphinxstyleemphasis{Select Existing Download} option and then select the file \sphinxcode{\sphinxupquote{OfflineVsCodeFiles\sphinxhyphen{}1.41.1.zip}}. This will change back to the installer window and \sphinxstyleemphasis{Execute Install} can be run.
+Select the \sphinxstyleemphasis{Download} option and VS Code will be downloaded.
 
-\noindent\sphinxincludegraphics{{worldskills-software-setup-5}.PNG}
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-4}.PNG}\hspace*{\fill}}
+
+Once VS Code is downloaded the window will auto change back to the installer window and \sphinxstyleemphasis{Execute Install} can be run.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-5}.PNG}\hspace*{\fill}}
 \end{quote}
 
 \sphinxstylestrong{What was just Installed}
-\begin{quote}
 \begin{itemize}
 \item {} 
-\sphinxstyleemphasis{Visual Stuido Code} \sphinxhyphen{} The prefered and suppored IDE for robot code development.
+\sphinxstyleemphasis{Visual Stuido Code} - The prefered and suppored IDE for robot code development.
 
 \item {} 
-\sphinxstyleemphasis{C++ Compiler} \sphinxhyphen{} Toolchains required for building C++ code.
+\sphinxstyleemphasis{C++ Compiler} - Toolchains required for building C++ code.
 
 \item {} 
-\sphinxstyleemphasis{Java JDK/JRE} \sphinxhyphen{} Specific version of the JDK/JRE that is used to build code.
+\sphinxstyleemphasis{Java JDK/JRE} - Specific version of the JDK/JRE that is used to build code.
 
 \item {} 
-\sphinxstyleemphasis{Gradle} \sphinxhyphen{} Specific version of Gradle used for building and deploying Java or C++ code to the VMXpi
+\sphinxstyleemphasis{Gradle} - Specific version of Gradle used for building and deploying Java or C++ code
 
 \item {} 
-\sphinxstyleemphasis{WPILib Tools} \sphinxhyphen{} Tools used for robot enhancement
+\sphinxstyleemphasis{WPILib Tools} - Tools used for robot enhancement
 
 \item {} 
-\sphinxstyleemphasis{WPILib Dependencies} \sphinxhyphen{} OpenCV, etc.
+\sphinxstyleemphasis{WPILib Dependencies} - OpenCV, etc.
 
 \item {} 
-\sphinxstyleemphasis{VS Code Extensions} \sphinxhyphen{} WPILib extensions for robot code development
+\sphinxstyleemphasis{VS Code Extensions} - WPILib extensions for robot code development
 
 \end{itemize}
 
 \begin{sphinxadmonition}{important}{Important:}
 The installer creates a seperate version of VS Code for robotics development, even if VS Code is already installed locally. This is done to prevent workflows from breaking.
 \end{sphinxadmonition}
-\end{quote}
+
+This part needs to be written and tested on a apple device
+
+This part needs to be written and tested on a linux device. Most likely will done through a VM
+
+
+\section{Offline Installer}
+\label{\detokenize{docs/WorldSkills/setup:offline-installer}}
+Windows
 
 macOS
 
-\sphinxstylestrong{Installing VS Code}
-
 Linux
 
-\sphinxstylestrong{Installing VS Code}
+\begin{sphinxadmonition}{warning}{Warning:}
+Windows 7: You \sphinxstylestrong{must} install the standalone version of .NET Version 4.62+ which can be found \sphinxhref{https://support.microsoft.com/en-us/help/3151800/the-net-framework-4-6-2-offline-installer-for-windows}{here}. Before preceding!
+\end{sphinxadmonition}
+
+The offline installation files will be located in the USB provided inside the collection. Locate and run the file named \sphinxcode{\sphinxupquote{WPILibInstaller\_Windows64-2020.3.2.exe}} or \sphinxcode{\sphinxupquote{WPILibInstaller\_Windows32-2020.3.2.exe}} based on your OS.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-1}.PNG}\hspace*{\fill}}
+
+Installing for \sphinxstyleemphasis{All Users} will require admin privileges and install for all users on the machine.
+
+\begin{sphinxadmonition}{note}{Note:}
+Software will be installed to \sphinxcode{\sphinxupquote{C:\textbackslash{}Users\textbackslash{}Public\textbackslash{}wpilib\textbackslash{}YYYY}}. YYYY Corresponds to the currently suppored year.
+\end{sphinxadmonition}
+
+\sphinxstylestrong{Download VS Code}
+\begin{quote}
+
+Due to licensing reasons with VS Code the installer does not contain it bundled in. To overcome this hit the \sphinxstyleemphasis{Select/Download VS Code} button.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-2}.PNG}\hspace*{\fill}}
+
+This will open up the selector tool.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-3}.PNG}\hspace*{\fill}}
+
+Select the \sphinxstyleemphasis{Select Existing Download} option and then select the file \sphinxcode{\sphinxupquote{OfflineVsCodeFiles-1.41.1.zip}}. This will change back to the installer window and \sphinxstyleemphasis{Execute Install} can be run.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics{{worldskills-software-setup-5}.PNG}\hspace*{\fill}}
+\end{quote}
+
+\sphinxstylestrong{What was just Installed}
+\begin{itemize}
+\item {} 
+\sphinxstyleemphasis{Visual Stuido Code} - The prefered and suppored IDE for robot code development.
+
+\item {} 
+\sphinxstyleemphasis{C++ Compiler} - Toolchains required for building C++ code.
+
+\item {} 
+\sphinxstyleemphasis{Java JDK/JRE} - Specific version of the JDK/JRE that is used to build code.
+
+\item {} 
+\sphinxstyleemphasis{Gradle} - Specific version of Gradle used for building and deploying Java or C++ code
+
+\item {} 
+\sphinxstyleemphasis{WPILib Tools} - Tools used for robot enhancement
+
+\item {} 
+\sphinxstyleemphasis{WPILib Dependencies} - OpenCV, etc.
+
+\item {} 
+\sphinxstyleemphasis{VS Code Extensions} - WPILib extensions for robot code development
+
+\end{itemize}
+
+\begin{sphinxadmonition}{important}{Important:}
+The installer creates a seperate version of VS Code for robotics development, even if VS Code is already installed locally. This is done to prevent workflows from breaking.
+\end{sphinxadmonition}
+
+This part needs to be written and tested on a apple device
+
+This part needs to be written and tested on a linux device. Most likely will done through a VM
 
 
 \chapter{World Skills Programming}
@@ -247,7 +258,7 @@ C++
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{c+c1}{//Java code input}
-\PYG{n}{leftfront} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Titan}\PYG{p}{(}\PYG{l+m+mi}{42}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{15600}\PYG{p}{)}\PYG{p}{;}
+\PYG{n}{leftfront} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Titan}\PYG{o}{(}\PYG{l+m+mi}{42}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{15600}\PYG{o}{)}\PYG{o}{;}
 \end{sphinxVerbatim}
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
@@ -263,7 +274,7 @@ Page to describe World Skills troubleshooting problems
 
 \chapter{Setting Up}
 \label{\detokenize{docs/FRCTraining/setup:setting-up}}\label{\detokenize{docs/FRCTraining/setup::doc}}
-Page to describe the set\sphinxhyphen{}up for FRC training
+Page to describe the set-up for FRC training
 
 
 \chapter{FRC Programming}
@@ -276,7 +287,7 @@ C++
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
 \PYG{c+c1}{//Java code input}
-\PYG{n}{leftFront} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Titan}\PYG{p}{(}\PYG{l+m+mi}{42}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{15600}\PYG{p}{)}\PYG{p}{;}
+\PYG{n}{leftFront} \PYG{o}{=} \PYG{k}{new} \PYG{n}{Titan}\PYG{o}{(}\PYG{l+m+mi}{42}\PYG{o}{,} \PYG{l+m+mi}{0}\PYG{o}{,} \PYG{l+m+mi}{15600}\PYG{o}{)}\PYG{o}{;}
 \end{sphinxVerbatim}
 
 \begin{sphinxVerbatim}[commandchars=\\\{\}]
@@ -292,7 +303,7 @@ Page to describe FRC troubleshooting problems
 
 \chapter{Setting Up}
 \label{\detokenize{docs/VMX/setup:setting-up}}\label{\detokenize{docs/VMX/setup::doc}}
-Page to describe the set\sphinxhyphen{}up for the VMX
+Page to describe the set-up for the VMX
 
 
 \chapter{Setting Up VMX Vision}

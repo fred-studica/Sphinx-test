@@ -5,7 +5,7 @@ Studica Robotics
    :maxdepth: 1
    :caption: World Skills
    
-   docs/WorldSkills/setup
+   docs/WorldSkills/software-setup/index
    docs/WorldSkills/programming
    docs/WorldSkills/troubleshooting
 
@@ -34,9 +34,3 @@ Studica Robotics
    docs/Titan/update
    docs/Titan/troubleshooting
    
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

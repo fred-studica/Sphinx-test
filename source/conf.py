@@ -19,8 +19,9 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Studica Robotics'
-copyright = '2020, Fred'
-author = 'Fred'
+copyright = '2020, Studica'
+author = 'Studica'
+version = '2020'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'
@@ -56,9 +57,19 @@ master_doc = "index"
 #
 html_theme = 'sphinx_rtd_theme'
 
+# Sidebar logo
 html_logo = "assets/studicaLogo.jpg"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+html_theme_options = {
+        'collapse_navigation': True,
+        'sticky_navigation': False,
+        'titles_only': True
+}
+
+def setup(app):
+    app.add_css_file('css/studica-rtd.css')
