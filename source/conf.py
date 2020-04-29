@@ -21,7 +21,6 @@ import sphinx_rtd_theme
 project = 'Studica Robotics'
 copyright = '2020, Studica'
 author = 'Studica'
-version = '2020'
 
 # The full version, including alpha/beta/rc tags
 release = '0.0.1'

@@ -1,3 +1,7 @@
+/* Fixes the size of the RTD flyout */
+.rst-versions {
+	width: 320px !important;
+}
 
 /* Content area color */
 .wy-nav-content {
@@ -16,23 +20,19 @@
 	width: 320px;
 }
 
-/* width of the content section */
+/* content section full screen */
 .wy-nav-content {
-	/*max-width: 1000px;*/
-   max-width: none; /* Makes content full screen */
+   max-width: none; 
 }
 
-/*
-.wy-nav-content-wrap {
-	margin-left: 320px;
-}
-
-.wy-nav-content-wrap{
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#003974',endColorstr='#003974',GradientType=1);background:#003974;background:-moz-linear-gradient(left,#003974,#6cc2c9,#003974);background:-webkit-gradient(linear,left top,right top,color-stop(0%,#003974),color-stop(50%,#6cc2c9),color-stop(100%,#003974));background:-webkit-linear-gradient(left,#003974,#6cc2c9,#003974);background:-o-linear-gradient(left,#003974,#6cc2c9,#003974);background:-ms-linear-gradient(left,#003974,#6cc2c9,#003974);background:linear-gradient(to right,#003974,#6cc2c9,#003974)
-}*/
-
+/* set color of left side bar */
 .wy-nav-side,.wy-side-nav-search,.wy-nav-top {
 	background: #005eb8;
+}
+
+/* Change caption color to be more legible */
+.wy-menu > .caption > span.caption-text {
+   color: yellow;
 }
 
 /* Hide color bar on mobile */

@@ -4,9 +4,9 @@ Studica Robotics
 .. toctree::
    :maxdepth: 1
    :caption: World Skills
-   
+
    docs/WorldSkills/software-setup/index
-   docs/WorldSkills/programming
+   docs/WorldSkills/programming/index
    docs/WorldSkills/troubleshooting
 
 .. toctree::
