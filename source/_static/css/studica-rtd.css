@@ -1,0 +1,48 @@
+
+/* Content area color */
+.wy-nav-content {
+	background: #fcfcfc;
+}
+
+/* Scroll Bar*/
+.wy-side-scroll {
+	width: auto;
+	overflow-y: auto;
+	margin-top: 0px;
+}
+
+/* width of the side panel */
+.wy-nav-side {
+	width: 320px;
+}
+
+/* width of the content section */
+.wy-nav-content {
+	/*max-width: 1000px;*/
+   max-width: none; /* Makes content full screen */
+}
+
+/*
+.wy-nav-content-wrap {
+	margin-left: 320px;
+}
+
+.wy-nav-content-wrap{
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#003974',endColorstr='#003974',GradientType=1);background:#003974;background:-moz-linear-gradient(left,#003974,#6cc2c9,#003974);background:-webkit-gradient(linear,left top,right top,color-stop(0%,#003974),color-stop(50%,#6cc2c9),color-stop(100%,#003974));background:-webkit-linear-gradient(left,#003974,#6cc2c9,#003974);background:-o-linear-gradient(left,#003974,#6cc2c9,#003974);background:-ms-linear-gradient(left,#003974,#6cc2c9,#003974);background:linear-gradient(to right,#003974,#6cc2c9,#003974)
+}*/
+
+.wy-nav-side,.wy-side-nav-search,.wy-nav-top {
+	background: #005eb8;
+}
+
+/* Hide color bar on mobile */
+@media screen and (max-width: 768px) {
+
+	.wy-nav-content-wrap {
+		margin-left: 0px;
+	}
+
+	.wy-nav-side {
+		width: 300px;
+	}
+}
